@@ -1,6 +1,7 @@
 const _ = require('lodash');
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
+// https://github.com/danielmahon/gatsby-remark-relative-images#v2-breaking-changes
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 
 exports.createPages = ({ actions, graphql }) => {

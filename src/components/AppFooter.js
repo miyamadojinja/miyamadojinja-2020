@@ -75,20 +75,14 @@ function AppFooter({ children }) {
               <Grid.Column>
                 <List as="address" link inverted>
                   <List.Item>
-                    鎮座地: <OutboundLink href={gmapUrl}>{address}</OutboundLink>
+                    鎮座地:{' '}
+                    <OutboundLink href={gmapUrl}>{address}</OutboundLink>
                   </List.Item>
                   <List.Item>
                     電話: <a href={`tel:${phoneHref}`}>{phone}</a>
                   </List.Item>
                   <List.Item>
                     Email: <a href={`mailto:${email}`}>{email}</a>
-                  </List.Item>
-                  <Divider hidden />
-                  <List.Item>
-                    旧サイト:{' '}
-                    <OutboundLink href={`http://www.miyamado-jinja.com`}>
-                      http://www.miyamado-jinja.com
-                    </OutboundLink>
                   </List.Item>
                 </List>
               </Grid.Column>
