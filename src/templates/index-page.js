@@ -50,11 +50,10 @@ export function IndexPageTemplate({ image, title, description, relatedLinks }) {
         <div style={{ flex: 1 }}>
           {/* TODO: Make this editable from CMS  */}
           <Segment padded="very" vertical>
-            <Message info header="狐の嫁入り道中は、中止となりました。" />
             <Message
               info
-              header="今年、令和3年節分祭2月2日  豆まきは、3回の予定。"
-              content="11時半、13時、15時の予定。変更になる可能性もありますので予めご了承ください。"
+              header="お知らせ"
+              content="今年、令和3年 節分祭2月2日「狐の嫁入り道中」の中止、「豆まき」の中止が決定となりました。"
             />
           </Segment>
 
