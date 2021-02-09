@@ -49,13 +49,13 @@ export function IndexPageTemplate({ image, title, description, relatedLinks }) {
       <Container style={{ display: 'flex' }}>
         <div style={{ flex: 1 }}>
           {/* TODO: Make this editable from CMS  */}
-          <Segment padded="very" vertical>
+          {/* <Segment padded="very" vertical>
             <Message
               info
               header="お知らせ"
               content="今年、令和3年 節分祭2月2日「狐の嫁入り道中」の中止、「豆まき」の中止が決定となりました。"
             />
-          </Segment>
+          </Segment> */}
 
           <Segment padded="very" vertical>
             <p style={{ fontSize: '1.5rem', lineHeight: '1.7' }}>
