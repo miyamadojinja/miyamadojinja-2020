@@ -8,7 +8,7 @@ import {
   Header,
   Image,
   List,
-  Message,
+  // Message,
   Segment,
 } from 'semantic-ui-react';
 import Media from 'react-media';

@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Button,
   Container,
-  Divider,
   Grid,
   Header,
   Icon,

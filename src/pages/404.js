@@ -3,12 +3,12 @@ import { Link } from 'gatsby';
 import { Container } from 'semantic-ui-react';
 
 import Layout from '../components/Layout';
-import SEO from '../components/SEO';
+import Seo from '../components/Seo';
 
 function NotFoundPage() {
   return (
     <Layout>
-      <SEO title="404: Not found" />
+      <Seo title="404: Not found" />
 
       <Container style={{ marginTop: '3rem', marginBottom: '3rem' }}>
         <h1>NOT FOUND</h1>

@@ -1,10 +1,12 @@
+const defaultSiteUrl = 'https://miyamadojinja.com'
+
 module.exports = {
   siteMetadata: {
     title: '海山道神社',
     description:
       '海山道開運稲荷さまは海でも山でも道をきり開いて開運を運んで下さる尊いお稲荷さまということで、お金やお客様を運べば商売繁盛、車や船を運んで交通安全・海上安全・旅行安全、筆を運んで受験合格・就職出世成功、その他縁結、子授、安産、病気平癒、借金取り等道を切り開いて都合よくお運びいただく開運諸願成就のあしどめ稲荷さまです。',
     address: '三重県四日市市海山道町1丁目62番地',
-    siteUrl: process.env.SITE_URL,
+    siteUrl: process.env.SITE_URL || defaultSiteUrl,
     gmapUrl:
       'https://www.google.com/maps/place/Miyamado+Shrine/@34.9430372,136.6211072,18z',
     directionsUrl:
@@ -77,7 +79,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: process.env.SITE_URL,
+        siteUrl: process.env.SITE_URL || defaultSiteUrl,
       },
     },
     {
@@ -99,7 +101,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID,
+        trackingId: process.env.GA_TRACKING_ID || 'asdf',
       },
     },
     {
