@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Container } from 'semantic-ui-react';
 
-import Seo from '../components/SEO';
+import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
