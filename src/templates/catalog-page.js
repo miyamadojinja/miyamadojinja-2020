@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Card, Container, Grid, Header, Segment } from 'semantic-ui-react';
 
-import SEO from '../components/SEO';
+import Seo from '../components/SEO';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
@@ -20,7 +20,7 @@ export function CatalogPageTemplate({
 
   return (
     <Container style={{ marginTop: '3rem', marginBottom: '3rem' }}>
-      <SEO title={title} description={description} />
+      <Seo title={title} description={description} />
 
       <h1>{title}</h1>
       <p>{description}</p>
